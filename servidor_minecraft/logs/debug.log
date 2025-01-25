@@ -1,0 +1,1120 @@
+[25Jan2025 18:39:45.359] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Jan2025 18:39:45.363] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[25Jan2025 18:39:45.404] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[25Jan2025 18:39:45.419] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[25Jan2025 18:39:45.446] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[25Jan2025 18:39:45.459] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[25Jan2025 18:39:45.472] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/legendary-train/servidor_minecraft
+[25Jan2025 18:39:45.472] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/legendary-train/servidor_minecraft/mods
+[25Jan2025 18:39:45.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/legendary-train/servidor_minecraft/config
+[25Jan2025 18:39:45.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/legendary-train/servidor_minecraft/config/fml.toml
+[25Jan2025 18:39:45.599] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [/workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6 (1).jar]
+[25Jan2025 18:39:45.660] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Jan2025 18:39:45.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,OptiFine,fml]
+[25Jan2025 18:39:45.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[25Jan2025 18:39:45.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[25Jan2025 18:39:45.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[25Jan2025 18:39:45.680] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service OptiFine
+[25Jan2025 18:39:45.680] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[25Jan2025 18:39:45.681] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6%20(1).jar%23101!/
+[25Jan2025 18:39:45.693] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6 (1).jar
+[25Jan2025 18:39:45.695] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[25Jan2025 18:39:45.705] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service OptiFine
+[25Jan2025 18:39:45.706] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[25Jan2025 18:39:45.714] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[25Jan2025 18:39:45.715] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[25Jan2025 18:39:45.715] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[25Jan2025 18:39:45.715] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[25Jan2025 18:39:45.716] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[25Jan2025 18:39:45.716] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[25Jan2025 18:39:45.719] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.1.6
+[25Jan2025 18:39:45.719] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[25Jan2025 18:39:45.720] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[25Jan2025 18:39:45.720] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[25Jan2025 18:39:45.721] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[25Jan2025 18:39:45.731] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[25Jan2025 18:39:45.732] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[25Jan2025 18:39:45.748] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@7a3d45bd
+[25Jan2025 18:39:45.777] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/legendary-train/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Jan2025 18:39:45.781] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[25Jan2025 18:39:45.781] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[25Jan2025 18:39:45.782] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[25Jan2025 18:39:45.783] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[25Jan2025 18:39:45.784] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[25Jan2025 18:39:45.785] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[25Jan2025 18:39:45.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[25Jan2025 18:39:45.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service OptiFine
+[25Jan2025 18:39:45.788] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[25Jan2025 18:39:45.789] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service OptiFine
+[25Jan2025 18:39:45.789] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[25Jan2025 18:39:45.790] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[25Jan2025 18:39:45.790] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/legendary-train/servidor_minecraft
+[25Jan2025 18:39:45.790] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/legendary-train/servidor_minecraft/mods
+[25Jan2025 18:39:45.791] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/legendary-train/servidor_minecraft/config
+[25Jan2025 18:39:45.791] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/legendary-train/servidor_minecraft/config/fml.toml
+[25Jan2025 18:39:45.791] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[25Jan2025 18:39:45.794] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[25Jan2025 18:39:45.798] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[25Jan2025 18:39:45.798] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[25Jan2025 18:39:45.815] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.3.7, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[25Jan2025 18:39:45.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[25Jan2025 18:39:45.818] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[25Jan2025 18:39:45.818] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[25Jan2025 18:39:45.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[25Jan2025 18:39:45.819] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[25Jan2025 18:39:45.819] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[25Jan2025 18:39:45.820] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service OptiFine
+[25Jan2025 18:39:45.820] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service OptiFine
+[25Jan2025 18:39:45.820] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[25Jan2025 18:39:45.820] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[25Jan2025 18:39:45.836] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[25Jan2025 18:39:45.840] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[25Jan2025 18:39:45.840] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[25Jan2025 18:39:46.149] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[25Jan2025 18:39:46.152] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar
+[25Jan2025 18:39:46.153] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jan2025 18:39:46.154] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar
+[25Jan2025 18:39:46.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jan2025 18:39:46.156] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar
+[25Jan2025 18:39:46.156] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jan2025 18:39:46.158] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar
+[25Jan2025 18:39:46.158] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jan2025 18:39:46.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[25Jan2025 18:39:46.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
+[25Jan2025 18:39:46.242] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.242] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.1-47.3.7-universal.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.242] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.242] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.1-47.3.7.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.243] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.1-47.3.7.jar, it does not contain dependency information.
+[25Jan2025 18:39:46.275] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25Jan2025 18:39:46.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[25Jan2025 18:39:46.283] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[25Jan2025 18:39:46.284] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[25Jan2025 18:39:46.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.3.7-universal.jar with {forge} mods - versions {47.3.7}
+[25Jan2025 18:39:46.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[25Jan2025 18:39:46.327] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[25Jan2025 18:39:46.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[25Jan2025 18:39:46.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[25Jan2025 18:39:46.329] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[25Jan2025 18:39:46.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[25Jan2025 18:39:46.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[25Jan2025 18:39:46.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[25Jan2025 18:39:46.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[25Jan2025 18:39:46.331] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[25Jan2025 18:39:46.356] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[25Jan2025 18:39:46.357] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[25Jan2025 18:39:46.357] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[25Jan2025 18:39:46.358] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[25Jan2025 18:39:46.363] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[25Jan2025 18:39:46.363] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[25Jan2025 18:39:46.363] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[25Jan2025 18:39:46.365] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[25Jan2025 18:39:46.366] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[25Jan2025 18:39:47.005] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[25Jan2025 18:39:47.005] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[25Jan2025 18:39:47.006] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[25Jan2025 18:39:47.006] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service OptiFine
+[25Jan2025 18:39:47.006] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[25Jan2025 18:39:47.020] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[25Jan2025 18:39:47.035] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LevelRenderer;} {} {V}
+[25Jan2025 18:39:47.038] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$WriteMaskStateShard;} {} {V}
+[25Jan2025 18:39:47.039] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$Cache$2;} {} {V}
+[25Jan2025 18:39:47.040] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer;} {} {V}
+[25Jan2025 18:39:47.041] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$Data;} {} {V}
+[25Jan2025 18:39:47.041] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/BakedModel;} {} {V}
+[25Jan2025 18:39:47.041] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$5;} {} {V}
+[25Jan2025 18:39:47.042] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/ParticleEngine$SpriteParticleRegistration;} {} {V}
+[25Jan2025 18:39:47.042] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$AmbientOcclusionFace;} {} {V}
+[25Jan2025 18:39:47.042] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlas;} {} {V}
+[25Jan2025 18:39:47.043] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/CubicSampler;} {} {V}
+[25Jan2025 18:39:47.043] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/FontSet;} {} {V}
+[25Jan2025 18:39:47.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientLevel;} {} {V}
+[25Jan2025 18:39:47.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;} {} {V}
+[25Jan2025 18:39:47.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/player/AbstractClientPlayer;} {} {V}
+[25Jan2025 18:39:47.045] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer;} {} {V}
+[25Jan2025 18:39:47.045] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$AltEnum;} {} {V}
+[25Jan2025 18:39:47.046] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/OnlineOptionsScreen;} {} {V}
+[25Jan2025 18:39:47.047] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientLevel$EntityCallbacks;} {} {V}
+[25Jan2025 18:39:47.048] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientLevel$1;} {} {V}
+[25Jan2025 18:39:47.049] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$Cache;} {} {V}
+[25Jan2025 18:39:47.053] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/WolfCollarLayer;} {} {V}
+[25Jan2025 18:39:47.053] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/atlas/sources/SingleFile;} {} {V}
+[25Jan2025 18:39:47.054] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$SliderableOrCyclableValueSet;} {} {V}
+[25Jan2025 18:39:47.054] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteLoader;} {} {V}
+[25Jan2025 18:39:47.055] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderType;} {} {V}
+[25Jan2025 18:39:47.056] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/geom/ModelPart$Visitor;} {} {V}
+[25Jan2025 18:39:47.056] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery$ModelGroupKey;} {} {V}
+[25Jan2025 18:39:47.056] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/SkinCustomizationScreen;} {} {V}
+[25Jan2025 18:39:47.057] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/DistanceManager$PlayerTicketTracker;} {} {V}
+[25Jan2025 18:39:47.057] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/packs/resources/ReloadableResourceManager;} {} {V}
+[25Jan2025 18:39:47.058] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/ChatOptionsScreen;} {} {V}
+[25Jan2025 18:39:47.058] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/LivingEntityRenderer;} {} {V}
+[25Jan2025 18:39:47.058] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$ValueSet;} {} {V}
+[25Jan2025 18:39:47.058] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton$Builder;} {} {V}
+[25Jan2025 18:39:47.059] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/ProgressScreen;} {} {V}
+[25Jan2025 18:39:47.059] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options$2;} {} {V}
+[25Jan2025 18:39:47.059] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$Strategy;} {} {V}
+[25Jan2025 18:39:47.059] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$Cache$1;} {} {V}
+[25Jan2025 18:39:47.060] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/DynamicTexture;} {} {V}
+[25Jan2025 18:39:47.060] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/GuiMessage;} {} {V}
+[25Jan2025 18:39:47.060] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexBuffer;} {} {V}
+[25Jan2025 18:39:47.060] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$Strategy$2;} {} {V}
+[25Jan2025 18:39:47.061] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier$2;} {} {V}
+[25Jan2025 18:39:47.061] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/StitcherException;} {} {V}
+[25Jan2025 18:39:47.061] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer;} {} {V}
+[25Jan2025 18:39:47.062] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/ItemFrameRenderer;} {} {V}
+[25Jan2025 18:39:47.062] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/CrashReport;} {} {V}
+[25Jan2025 18:39:47.063] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkMap;} {} {V}
+[25Jan2025 18:39:47.063] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options$4;} {} {V}
+[25Jan2025 18:39:47.063] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$RebuildTask;} {} {V}
+[25Jan2025 18:39:47.063] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/AbstractTexture;} {} {V}
+[25Jan2025 18:39:47.063] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;} {} {V}
+[25Jan2025 18:39:47.064] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/ChunkPos$1;} {} {V}
+[25Jan2025 18:39:47.065] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderType$CompositeState;} {} {V}
+[25Jan2025 18:39:47.066] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkMap$2;} {} {V}
+[25Jan2025 18:39:47.066] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/TitleScreen;} {} {V}
+[25Jan2025 18:39:47.067] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$DestFactor;} {} {V}
+[25Jan2025 18:39:47.067] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ScissorState;} {} {V}
+[25Jan2025 18:39:47.067] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/WardenEmissiveLayer;} {} {V}
+[25Jan2025 18:39:47.068] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/DistanceManager$ChunkTicketTracker;} {} {V}
+[25Jan2025 18:39:47.069] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/SaddleLayer;} {} {V}
+[25Jan2025 18:39:47.069] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/SlimeOuterLayer;} {} {V}
+[25Jan2025 18:39:47.069] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/PoseStack$Pose;} {} {V}
+[25Jan2025 18:39:47.069] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/ChatComponent;} {} {V}
+[25Jan2025 18:39:47.069] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer$FogData;} {} {V}
+[25Jan2025 18:39:47.070] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;} {} {V}
+[25Jan2025 18:39:47.070] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/SkullBlockRenderer;} {} {V}
+[25Jan2025 18:39:47.070] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/LiquidBlockRenderer$1;} {} {V}
+[25Jan2025 18:39:47.071] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$OffsetTexturingStateShard;} {} {V}
+[25Jan2025 18:39:47.071] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/glyphs/BakedGlyph$Effect;} {} {V}
+[25Jan2025 18:39:47.073] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/network/syncher/SynchedEntityData;} {} {V}
+[25Jan2025 18:39:47.073] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/LoadingOverlay$LogoTexture;} {} {V}
+[25Jan2025 18:39:47.073] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$CountConsumer;} {} {V}
+[25Jan2025 18:39:47.074] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/metadata/animation/AnimationMetadataSection;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/VisibilitySet;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$OS$1;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$8;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/ParticleEngine$ParticleDefinition;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$ChunkCompileTask;} {} {V}
+[25Jan2025 18:39:47.075] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery$BakedCacheKey;} {} {V}
+[25Jan2025 18:39:47.076] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;} {} {V}
+[25Jan2025 18:39:47.076] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderType$CompositeState$CompositeStateBuilder;} {} {V}
+[25Jan2025 18:39:47.077] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/block/state/properties/Property$Value;} {} {V}
+[25Jan2025 18:39:47.077] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$RebuildTask$CompileResults;} {} {V}
+[25Jan2025 18:39:47.077] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/EyesLayer;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/ItemRenderer;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexMultiConsumer$Multiple;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/ItemOverrides$BakedOverride;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/ChunkPos;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/EnderDragonRenderer$DragonModel;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LevelRenderer$TransparencyShaderException;} {} {V}
+[25Jan2025 18:39:47.078] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/LlamaDecorLayer;} {} {V}
+[25Jan2025 18:39:47.082] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteContents$AnimatedTexture;} {} {V}
+[25Jan2025 18:39:47.082] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/TheEndPortalRenderer;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$CompiledChunk;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$IntRangeBase;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/LoadingOverlay;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/RenderRegionCache$ChunkInfo;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/BakedQuad;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/MultiBufferSource;} {} {V}
+[25Jan2025 18:39:47.083] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/Stitcher;} {} {V}
+[25Jan2025 18:39:47.084] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/Model;} {} {V}
+[25Jan2025 18:39:47.084] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/RenderChunkRegion;} {} {V}
+[25Jan2025 18:39:47.084] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/valueproviders/ConstantFloat;} {} {V}
+[25Jan2025 18:39:47.084] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/EffectInstance;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/FaceBakery;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$ResortTransparencyTask;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$TexturingStateShard;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/profiling/ActiveProfiler$PathEntry;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$Axis$1;} {} {V}
+[25Jan2025 18:39:47.085] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/WardenEmissiveLayer$DrawSelector;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$OS;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/Font$DisplayMode;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$Region;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$LogicOp;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/systems/RenderSystem$1;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer$1;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery$ModelBakerImpl;} {} {V}
+[25Jan2025 18:39:47.086] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/EntityRenderers;} {} {V}
+[25Jan2025 18:39:47.087] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormatElement$Usage;} {} {V}
+[25Jan2025 18:39:47.087] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton$OnValueChange;} {} {V}
+[25Jan2025 18:39:47.087] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/SimpleBitStorage$InitializationException;} {} {V}
+[25Jan2025 18:39:47.088] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard;} {} {V}
+[25Jan2025 18:39:47.088] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/biome/Biomes;} {} {V}
+[25Jan2025 18:39:47.088] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/VisGraph$1;} {} {V}
+[25Jan2025 18:39:47.088] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/DebugScreenOverlay;} {} {V}
+[25Jan2025 18:39:47.089] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/DistanceManager$FixedPlayerDistanceChunkTracker;} {} {V}
+[25Jan2025 18:39:47.089] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$2;} {} {V}
+[25Jan2025 18:39:47.089] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormatElement$Usage$ClearState;} {} {V}
+[25Jan2025 18:39:47.089] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/levelgen/blending/Blender$BlendingOutput;} {} {V}
+[25Jan2025 18:39:47.096] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction;} {} {V}
+[25Jan2025 18:39:47.096] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/ItemEntityRenderer;} {} {V}
+[25Jan2025 18:39:47.096] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$CullStateShard;} {} {V}
+[25Jan2025 18:39:47.096] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderType$OutlineProperty;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/Particle;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$IdentityStrategy;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteLoader$Preparations;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/network/syncher/SynchedEntityData$DataValue;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$3;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$CycleableValueSet;} {} {V}
+[25Jan2025 18:39:47.097] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$EmptyTextureStateShard;} {} {V}
+[25Jan2025 18:39:47.098] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/SignRenderer$SignModel;} {} {V}
+[25Jan2025 18:39:47.098] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$Plane;} {} {V}
+[25Jan2025 18:39:47.099] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/resources/ResourceLocation$Serializer;} {} {V}
+[25Jan2025 18:39:47.099] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/StrayClothingLayer;} {} {V}
+[25Jan2025 18:39:47.099] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$SourceFactor;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$4;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Screenshot;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$ClampingLazyMaxIntRange;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery$BlockStateDefinitionException;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$AxisDirection;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/Font;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$MultiTextureStateShard$Builder;} {} {V}
+[25Jan2025 18:39:47.100] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$ShaderStateShard;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/geom/ModelPart$Cube;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$UnitDouble;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/ReceivingLevelScreen;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/BlockRenderDispatcher$1;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$MultiTextureStateShard;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$DepthTestStateShard;} {} {V}
+[25Jan2025 18:39:47.101] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBaker;} {} {V}
+[25Jan2025 18:39:47.102] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteTicker;} {} {V}
+[25Jan2025 18:39:47.102] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/pipeline/RenderTarget;} {} {V}
+[25Jan2025 18:39:47.102] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$StencilFunc;} {} {V}
+[25Jan2025 18:39:47.102] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$7;} {} {V}
+[25Jan2025 18:39:47.102] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientLevel$ClientLevelData;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/FontSet$GlyphInfoFilter;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/resources/ResourceLocation;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$LazyEnum;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$Strategy$1;} {} {V}
+[25Jan2025 18:39:47.103] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormat$IndexType;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/CreeperPowerLayer;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/packs/PathPackResources;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormatElement;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/metadata/animation/AnimationMetadataSection$FrameOutput;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/item/ItemUtils;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/KeyboardHandler;} {} {V}
+[25Jan2025 18:39:47.104] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$Axis$3;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SimpleTexture$TextureImage;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/TextureManager;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ShaderInstance$1;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ShaderInstance;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/SignRenderer;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/DistanceManager;} {} {V}
+[25Jan2025 18:39:47.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LevelRenderer$RenderChunkInfo;} {} {V}
+[25Jan2025 18:39:47.106] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$SizeInfo;} {} {V}
+[25Jan2025 18:39:47.106] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/DebugScreenOverlay$1;} {} {V}
+[25Jan2025 18:39:47.114] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/WitherArmorLayer;} {} {V}
+[25Jan2025 18:39:47.115] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/Tesselator;} {} {V}
+[25Jan2025 18:39:47.115] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$TransparencyStateShard;} {} {V}
+[25Jan2025 18:39:47.115] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GLX;} {} {V}
+[25Jan2025 18:39:47.116] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$Axis$2;} {} {V}
+[25Jan2025 18:39:47.116] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexBuffer$Usage;} {} {V}
+[25Jan2025 18:39:47.116] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/providers/BitmapProvider$Glyph;} {} {V}
+[25Jan2025 18:39:47.116] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/providers/BitmapProvider$Definition;} {} {V}
+[25Jan2025 18:39:47.116] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher;} {} {V}
+[25Jan2025 18:39:47.117] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/packs/FilePackResources;} {} {V}
+[25Jan2025 18:39:47.117] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/CubicSampler$Vec3Fetcher;} {} {V}
+[25Jan2025 18:39:47.118] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer$FogMode;} {} {V}
+[25Jan2025 18:39:47.118] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/ElytraLayer;} {} {V}
+[25Jan2025 18:39:47.118] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer;} {} {V}
+[25Jan2025 18:39:47.119] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$BooleanState;} {} {V}
+[25Jan2025 18:39:47.119] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier$1;} {} {V}
+[25Jan2025 18:39:47.119] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;} {} {V}
+[25Jan2025 18:39:47.120] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$CullState;} {} {V}
+[25Jan2025 18:39:47.120] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/network/syncher/SynchedEntityData$DataItem;} {} {V}
+[25Jan2025 18:39:47.120] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;} {} {V}
+[25Jan2025 18:39:47.120] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LevelRenderer$RenderInfoMap;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/Material;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/GameRenderer$1;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/BrightnessCombiner;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/Window$WindowInitFailed;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/Gui$HeartType;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/Mth;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkMap$DistanceManager;} {} {V}
+[25Jan2025 18:39:47.121] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/KeyboardHandler$1;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/entity/Mob$1;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/material/MapColor$Brightness;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/packs/VanillaPackResources;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/BitStorage;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ItemInHandRenderer;} {} {V}
+[25Jan2025 18:39:47.122] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlDebug;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Camera;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/ExperienceOrbRenderer;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$TextureStateShard;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/SpriteCoordinateExpander;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$OS$2;} {} {V}
+[25Jan2025 18:39:47.123] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/ItemPickupParticle;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/entity/EntityEvent;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$1;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteContents;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$6;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$1;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/MobRenderer;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$LayeringStateShard;} {} {V}
+[25Jan2025 18:39:47.124] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/Window;} {} {V}
+[25Jan2025 18:39:47.125] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/ItemOverrides;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/levelgen/blending/Blender$1;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/RenderChunk;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/RenderLayer;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlDebug$LogEntry;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/ParticleEngine$MutableSpriteSet;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormat$1;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$BooleanStateShard;} {} {V}
+[25Jan2025 18:39:47.126] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer$MobEffectFogFunction;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/TntMinecartRenderer;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/DebugScreenOverlay$AllocationRateCalculator;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ViewArea;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferUploader;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer$IndexGenerator;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$IntRange;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/CatCollarLayer;} {} {V}
+[25Jan2025 18:39:47.127] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/DefaultVertexFormat;} {} {V}
+[25Jan2025 18:39:47.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;} {} {V}
+[25Jan2025 18:39:47.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/BossHealthOverlay$1;} {} {V}
+[25Jan2025 18:39:47.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/BossHealthOverlay;} {} {V}
+[25Jan2025 18:39:47.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/WardenEmissiveLayer$AlphaFunction;} {} {V}
+[25Jan2025 18:39:47.128] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/block/entity/BlockEntity;} {} {V}
+[25Jan2025 18:39:47.132] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/GameRenderer;} {} {V}
+[25Jan2025 18:39:47.132] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/geom/ModelPart;} {} {V}
+[25Jan2025 18:39:47.132] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderType$CompositeRenderType;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$CaptionBasedToString;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkMap$TrackedEntity;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/shaders/Program;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$DepthState;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$Enum;} {} {V}
+[25Jan2025 18:39:47.133] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/culling/Frustum;} {} {V}
+[25Jan2025 18:39:47.137] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/ModelUtils;} {} {V}
+[25Jan2025 18:39:47.137] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/GameRenderer$ResourceCache;} {} {V}
+[25Jan2025 18:39:47.137] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/RenderRegionCache;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteContents$FrameInfo;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientChunkCache$Storage;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/BlockEntityWithoutLevelRenderer;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SimpleTexture;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormat;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/MushroomCowMushroomLayer;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/systems/RenderSystem;} {} {V}
+[25Jan2025 18:39:47.138] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexMultiConsumer$Double;} {} {V}
+[25Jan2025 18:39:47.139] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/levelgen/blending/Blender$CellValueGetter;} {} {V}
+[25Jan2025 18:39:47.139] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/LevelChunkSection$BlockCounter;} {} {V}
+[25Jan2025 18:39:47.139] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/TitleScreen$WarningLabel;} {} {V}
+[25Jan2025 18:39:47.139] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteContents$Ticker;} {} {V}
+[25Jan2025 18:39:47.139] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/GuiGraphics$ScissorStack;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/MapRenderer$MapInstance;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ScreenEffectRenderer;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/item/alchemy/PotionUtils;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/item/DyeColor;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/BlockRenderDispatcher;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/levelgen/blending/Blender$DistanceGetter;} {} {V}
+[25Jan2025 18:39:47.140] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormatElement$Type;} {} {V}
+[25Jan2025 18:39:47.141] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$StencilState;} {} {V}
+[25Jan2025 18:39:47.141] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexFormatElement$Usage$SetupState;} {} {V}
+[25Jan2025 18:39:47.141] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$OptionInstanceSliderButton;} {} {V}
+[25Jan2025 18:39:47.141] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$SliderableValueSet;} {} {V}
+[25Jan2025 18:39:47.141] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$UnitDouble$1;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/debug/ChunkBorderRenderer;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$ColorLogicStateShard;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/shaders/Program$Type;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/entity/EntitySection;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkMap$1;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/profiling/ActiveProfiler;} {} {V}
+[25Jan2025 18:39:47.143] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$CompiledChunk$1;} {} {V}
+[25Jan2025 18:39:47.144] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ColorLogicState;} {} {V}
+[25Jan2025 18:39:47.144] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/Font$StringRenderOutput;} {} {V}
+[25Jan2025 18:39:47.145] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/ModelBakery$LoadedJson;} {} {V}
+[25Jan2025 18:39:47.145] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/material/MapColor;} {} {V}
+[25Jan2025 18:39:47.145] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/Gui;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/SimpleBitStorage;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/core/Direction$Axis;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ItemInHandRenderer$HandRenderSelection;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$1;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$Holder;} {} {V}
+[25Jan2025 18:39:47.146] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ColorMask;} {} {V}
+[25Jan2025 18:39:47.155] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/SheepFurLayer;} {} {V}
+[25Jan2025 18:39:47.155] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/screens/VideoSettingsScreen;} {} {V}
+[25Jan2025 18:39:47.155] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/model/FaceBakery$1;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/HttpTexture;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$Entry;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$BlendState;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Camera$NearPlane;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$Viewport;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/language/ClientLanguage;} {} {V}
+[25Jan2025 18:39:47.157] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/MapRenderer;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkLevel$1;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/block/state/properties/Property;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/LevelChunkSection;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/providers/BitmapProvider;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$LineStateShard;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/SpriteContents$InterpolationData;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/multiplayer/ClientChunkCache;} {} {V}
+[25Jan2025 18:39:47.158] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/GuiMessage$Line;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/NativeImage$WriteCallback;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/thread/BlockableEventLoop;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer$BlindnessFogFunction;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/geom/ModelPart$Polygon;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/levelgen/blending/Blender;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$1;} {} {V}
+[25Jan2025 18:39:47.159] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/chunk/PalettedContainer$Configuration;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/FogRenderer$DarknessFogFunction;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$AdjacencyInfo;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$TooltipSupplier;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/NativeImage$Format;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/Util$9;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/PoseStack;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options$FieldAccess;} {} {V}
+[25Jan2025 18:39:47.160] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/DrownedOuterLayer;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkTaskResult;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/MipmapGenerator;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$SpriteLoader;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexConsumer;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/resources/ResourceLocation$Dummy;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options$1;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/EnderDragonRenderer;} {} {V}
+[25Jan2025 18:39:47.161] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/server/level/ChunkLevel;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$OutputStateShard;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/LivingEntityRenderer$1;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/ClientBrandRetriever;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/model/geom/ModelPart$Vertex;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LightTexture;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/block/state/BlockState;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/metadata/animation/AnimationMetadataSection$1;} {} {V}
+[25Jan2025 18:39:47.162] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$Ticker;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/ParrotOnShoulderLayer;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/level/entity/EntitySectionStorage;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderer;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/GuiGraphics;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/MissingTextureAtlasSprite;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/world/entity/Mob;} {} {V}
+[25Jan2025 18:39:47.163] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/Options$3;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/CapeLayer;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/server/IntegratedServer;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/atlas/SpriteResourceLoader$1;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferBuilder$SortState;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/WeightedBakedModel$Builder;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/network/protocol/PacketUtils;} {} {V}
+[25Jan2025 18:39:47.164] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance$IntRangeBase$1;} {} {V}
+[25Jan2025 18:39:47.165] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/OptionInstance;} {} {V}
+[25Jan2025 18:39:47.165] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/resources/model/WeightedBakedModel;} {} {V}
+[25Jan2025 18:39:47.165] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/font/providers/BitmapProvider$Glyph$1;} {} {V}
+[25Jan2025 18:39:47.165] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferBuilder$DrawState;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/EntityRenderer;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/Monitor;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/texture/atlas/SpriteResourceLoader;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/particle/ParticleEngine;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferBuilder$1;} {} {V}
+[25Jan2025 18:39:47.166] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/block/ModelBlockRenderer$AmbientVertexRemap;} {} {V}
+[25Jan2025 18:39:47.169] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$LightmapStateShard;} {} {V}
+[25Jan2025 18:39:47.169] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/gui/components/ChatComponent$DelayedMessageDeletion;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/LevelRenderer$RenderChunkStorage;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/chunk/VisGraph;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/VertexMultiConsumer;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/ItemInHandRenderer$1;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$PolygonOffsetState;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$TextureState;} {} {V}
+[25Jan2025 18:39:47.170] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/NativeImage$InternalGlFormat;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/entity/layers/HorseArmorLayer;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/platform/NativeImage;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/client/renderer/RenderStateShard$OverlayStateShard;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lnet/minecraft/util/ClassInstanceMultiMap;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@470a659f to Target : PRE_CLASS {Lcom/mojang/blaze3d/vertex/BufferBuilder;} {} {V}
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service OptiFine
+[25Jan2025 18:39:47.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[25Jan2025 18:39:47.171] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[25Jan2025 18:39:47.172] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[25Jan2025 18:39:47.500] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[25Jan2025 18:39:47.501] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[25Jan2025 18:39:47.705] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[25Jan2025 18:39:47.707] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[25Jan2025 18:39:47.779] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[25Jan2025 18:39:47.779] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[25Jan2025 18:39:47.939] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[25Jan2025 18:39:47.956] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@444f44c5 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[25Jan2025 18:39:47.957] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@303f1234 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[25Jan2025 18:39:47.957] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@24d61e4 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[25Jan2025 18:39:47.958] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2149594a to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[25Jan2025 18:39:47.958] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1f1e58ca to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[25Jan2025 18:39:47.958] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@57f847af to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[25Jan2025 18:39:47.959] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3ed34ef5 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[25Jan2025 18:39:47.959] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@553bc36c to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[25Jan2025 18:39:47.959] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@380e1909 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[25Jan2025 18:39:47.960] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[25Jan2025 18:39:47.960] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[25Jan2025 18:39:47.960] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[25Jan2025 18:39:47.960] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[25Jan2025 18:39:47.961] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[25Jan2025 18:39:47.961] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[25Jan2025 18:39:47.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[25Jan2025 18:39:47.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[25Jan2025 18:39:47.962] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[25Jan2025 18:39:47.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[25Jan2025 18:39:47.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[25Jan2025 18:39:47.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[25Jan2025 18:39:47.963] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[25Jan2025 18:39:47.964] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[25Jan2025 18:39:47.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[25Jan2025 18:39:47.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[25Jan2025 18:39:47.966] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d5ef498 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[25Jan2025 18:39:47.966] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[25Jan2025 18:39:47.986] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[25Jan2025 18:39:48.755] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[25Jan2025 18:39:48.765] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[25Jan2025 18:39:48.766] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.optifine)
+[25Jan2025 18:39:48.766] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.optifine)
+[25Jan2025 18:39:48.766] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.optifine)
+[25Jan2025 18:39:48.766] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.optifine)
+[25Jan2025 18:39:48.767] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.optifine)
+[25Jan2025 18:39:48.767] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.optifine)]
+[25Jan2025 18:39:48.767] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[25Jan2025 18:39:48.768] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[25Jan2025 18:39:48.768] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[25Jan2025 18:39:48.769] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[25Jan2025 18:39:48.769] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[25Jan2025 18:39:48.770] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[25Jan2025 18:39:48.770] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[25Jan2025 18:39:48.770] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[25Jan2025 18:39:48.771] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[25Jan2025 18:39:48.771] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[25Jan2025 18:39:48.772] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[25Jan2025 18:39:48.773] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[25Jan2025 18:39:48.773] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[25Jan2025 18:39:48.773] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[25Jan2025 18:39:48.774] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.optifine)]
+[25Jan2025 18:39:48.774] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[25Jan2025 18:39:48.774] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[25Jan2025 18:39:48.775] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Jan2025 18:39:48.845] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[25Jan2025 18:39:48.848] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[25Jan2025 18:39:49.039] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[25Jan2025 18:39:49.043] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[25Jan2025 18:39:49.044] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[25Jan2025 18:39:49.603] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@34aeacd1
+[25Jan2025 18:39:49.604] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[25Jan2025 18:39:49.806] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[25Jan2025 18:39:49.810] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[25Jan2025 18:39:49.823] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[25Jan2025 18:39:49.835] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[25Jan2025 18:39:49.837] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[25Jan2025 18:39:49.837] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[25Jan2025 18:39:49.838] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[25Jan2025 18:39:49.839] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[25Jan2025 18:39:49.842] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[25Jan2025 18:39:49.843] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[25Jan2025 18:39:49.844] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[25Jan2025 18:39:49.844] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[25Jan2025 18:39:49.845] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[25Jan2025 18:39:49.849] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[25Jan2025 18:39:49.906] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[25Jan2025 18:39:49.909] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@34aeacd1
+[25Jan2025 18:39:49.910] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[25Jan2025 18:39:49.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[25Jan2025 18:39:49.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[25Jan2025 18:39:50.817] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[25Jan2025 18:39:51.686] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[25Jan2025 18:39:51.753] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[25Jan2025 18:39:51.836] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[25Jan2025 18:39:53.113] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[25Jan2025 18:39:54.815] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[25Jan2025 18:39:54.885] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[25Jan2025 18:39:56.268] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[25Jan2025 18:39:56.352] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[25Jan2025 18:39:56.452] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[25Jan2025 18:39:56.549] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[25Jan2025 18:39:56.699] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[25Jan2025 18:39:56.752] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[25Jan2025 18:39:56.918] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[25Jan2025 18:39:57.086] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[25Jan2025 18:39:57.968] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[25Jan2025 18:39:58.022] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[25Jan2025 18:39:58.062] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[25Jan2025 18:39:58.091] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[25Jan2025 18:39:58.134] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[25Jan2025 18:39:58.427] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[25Jan2025 18:39:58.818] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6430
+[25Jan2025 18:39:58.840] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 2 threads for parallel mod-loading
+[25Jan2025 18:39:58.847] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@34aeacd1 - got cpw.mods.cl.ModuleClassLoader@2c383e33
+[25Jan2025 18:39:58.848] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[25Jan2025 18:39:58.916] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.3 from cpw.mods.modlauncher.TransformingClassLoader@34aeacd1
+[25Jan2025 18:39:58.916] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.3.7
+[25Jan2025 18:39:58.916] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.3
+[25Jan2025 18:39:58.916] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[25Jan2025 18:39:58.917] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@34aeacd1
+[25Jan2025 18:39:58.917] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[25Jan2025 18:39:58.917] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[25Jan2025 18:39:58.917] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Jan2025 18:39:58.926] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Jan2025 18:39:59.064] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[25Jan2025 18:39:59.064] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[25Jan2025 18:39:59.065] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[25Jan2025 18:39:59.065] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[25Jan2025 18:39:59.071] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[25Jan2025 18:39:59.071] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[25Jan2025 18:39:59.072] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.7-universal.jar%23108!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.7-universal.jar%23108!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23105!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23104!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Jan2025 18:39:59.073] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[25Jan2025 18:39:59.074] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.3.7-universal.jar%23108!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:429) ~[forge-1.20.1-47.3.7-universal.jar%23108!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23105!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23104!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Jan2025 18:39:59.075] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[25Jan2025 18:39:59.076] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[25Jan2025 18:39:59.076] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 12884901888 bytes (maybe)
+[25Jan2025 18:39:59.076] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[25Jan2025 18:39:59.077] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[25Jan2025 18:39:59.077] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[25Jan2025 18:39:59.077] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[25Jan2025 18:39:59.081] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[25Jan2025 18:39:59.081] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[25Jan2025 18:39:59.136] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[25Jan2025 18:39:59.188] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[25Jan2025 18:39:59.189] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[25Jan2025 18:39:59.189] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[25Jan2025 18:39:59.279] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[25Jan2025 18:39:59.282] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[25Jan2025 18:39:59.381] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[25Jan2025 18:39:59.383] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[25Jan2025 18:39:59.383] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[25Jan2025 18:39:59.383] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[25Jan2025 18:39:59.623] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[25Jan2025 18:40:00.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Jan2025 18:40:00.863] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.1",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.13",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.17",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.25",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.25",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.32",
+    "1.20.6-recommended": "50.1.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.0.40",
+    "1.21.3-latest": "53.0.39",
+    "1.21.4-latest": "54.0.20"
+  }
+}
+[25Jan2025 18:40:00.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.25
+[25Jan2025 18:40:02.292] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jan2025 18:40:03.565] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[25Jan2025 18:40:03.567] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[25Jan2025 18:40:03.686] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[25Jan2025 18:40:05.047] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[25Jan2025 18:40:05.633] [Worker-Main-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[25Jan2025 18:40:06.366] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Jan2025 18:40:06.592] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[25Jan2025 18:40:07.252] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jan2025 18:40:07.274] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jan2025 18:40:07.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Jan2025 18:40:07.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Jan2025 18:40:07.339] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Jan2025 18:40:07.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Jan2025 18:40:07.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Jan2025 18:40:07.530] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[25Jan2025 18:40:07.539] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[25Jan2025 18:40:07.539] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[25Jan2025 18:40:07.539] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[25Jan2025 18:40:07.539] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[25Jan2025 18:40:07.548] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6416616326735469152733.so
+[25Jan2025 18:40:07.551] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[25Jan2025 18:40:07.551] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[25Jan2025 18:40:07.554] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[25Jan2025 18:40:07.556] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[25Jan2025 18:40:07.560] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Jan2025 18:40:07.577] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 4
+[25Jan2025 18:40:07.589] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[25Jan2025 18:40:07.590] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[25Jan2025 18:40:07.601] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[25Jan2025 18:40:07.612] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 8926 (auto-detected)
+[25Jan2025 18:40:07.613] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 7c:1e:52:ff:fe:6f:91:83 (auto-detected)
+[25Jan2025 18:40:07.644] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 4
+[25Jan2025 18:40:07.644] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 4
+[25Jan2025 18:40:07.644] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[25Jan2025 18:40:07.645] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[25Jan2025 18:40:07.646] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[25Jan2025 18:40:07.646] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[25Jan2025 18:40:07.654] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[25Jan2025 18:40:07.654] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[25Jan2025 18:40:07.654] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[25Jan2025 18:40:07.664] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Jan2025 18:40:07.665] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Jan2025 18:40:07.665] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Jan2025 18:40:07.666] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Jan2025 18:40:07.686] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[25Jan2025 18:40:07.688] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[25Jan2025 18:40:07.689] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[25Jan2025 18:40:07.694] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[25Jan2025 18:40:07.697] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[25Jan2025 18:40:07.698] [Thread-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[25Jan2025 18:40:07.698] [Thread-2/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[25Jan2025 18:40:07.699] [Thread-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[25Jan2025 18:40:07.699] [Thread-2/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[25Jan2025 18:40:07.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Jan2025 18:40:07.747] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[25Jan2025 18:40:07.766] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[25Jan2025 18:40:07.801] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[25Jan2025 18:40:07.816] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[25Jan2025 18:40:08.855] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[25Jan2025 18:40:08.855] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[25Jan2025 18:40:08.855] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[25Jan2025 18:40:08.855] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[25Jan2025 18:40:08.867] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[25Jan2025 18:40:08.867] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[25Jan2025 18:40:08.869] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@438e55f7
+[25Jan2025 18:40:08.917] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jan2025 18:40:13.817] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jan2025 18:40:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Jan2025 18:40:21.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.498] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.505] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.520] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.528] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.552] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.558] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.560] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.670] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jan2025 18:40:21.847] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.860] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:21.912] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:22.187] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[25Jan2025 18:40:22.465] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:22.912] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:23.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:23.905] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:24.435] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:24.905] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:25.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:25.903] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2025 18:40:26.403] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[25Jan2025 18:40:26.880] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11977 ms
+[25Jan2025 18:40:26.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.194s)! For help, type "help"
+[25Jan2025 18:40:26.957] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[25Jan2025 18:40:26.964] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 213
+[25Jan2025 18:40:26.968] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Jan2025 18:40:27.052] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[25Jan2025 18:40:46.829] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[25Jan2025 18:40:46.869] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[25Jan2025 18:40:46.918] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[25Jan2025 18:40:46.969] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[25Jan2025 18:40:47.018] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[25Jan2025 18:40:47.068] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[25Jan2025 18:40:47.071] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[25Jan2025 18:40:47.074] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[25Jan2025 18:40:47.074] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge]
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[25Jan2025 18:40:47.075] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[25Jan2025 18:40:47.076] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[25Jan2025 18:40:47.118] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[25Jan2025 18:40:47.118] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.118] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.119] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[25Jan2025 18:40:47.167] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[25Jan2025 18:40:47.168] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.168] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.169] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[25Jan2025 18:40:47.219] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[25Jan2025 18:40:47.268] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[25Jan2025 18:40:47.318] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[25Jan2025 18:40:47.368] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[25Jan2025 18:40:47.374] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[25Jan2025 18:40:47.374] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.375] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.375] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[25Jan2025 18:40:47.375] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.375] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.375] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[25Jan2025 18:40:47.376] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.376] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.418] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[25Jan2025 18:40:47.468] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.480] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[25Jan2025 18:40:47.481] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.481] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.516] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[25Jan2025 18:40:47.516] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.516] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.518] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[25Jan2025 18:40:47.566] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[25Jan2025 18:40:47.566] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.566] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.568] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[25Jan2025 18:40:47.618] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[25Jan2025 18:40:47.629] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[25Jan2025 18:40:47.629] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.629] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.668] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[25Jan2025 18:40:47.671] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[25Jan2025 18:40:47.671] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.671] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.715] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[25Jan2025 18:40:47.715] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.716] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.718] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[25Jan2025 18:40:47.766] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[25Jan2025 18:40:47.766] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.767] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.768] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[25Jan2025 18:40:47.817] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[25Jan2025 18:40:47.817] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.817] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.818] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[25Jan2025 18:40:47.867] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[25Jan2025 18:40:47.867] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.868] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.868] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[25Jan2025 18:40:47.917] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[25Jan2025 18:40:47.917] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.917] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:47.918] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[25Jan2025 18:40:47.965] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[25Jan2025 18:40:47.965] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:47.965] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:48.655] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[25Jan2025 18:40:48.655] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:48.655] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:48.658] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[25Jan2025 18:40:48.658] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[25Jan2025 18:40:48.658] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[25Jan2025 18:40:48.668] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[25Jan2025 18:40:48.917] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:55919] logged in with entity id 139 at (73.65601459504856, 101.0, -1954.3600349662245)
+[25Jan2025 18:40:48.934] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@48d8108e into net.minecraft.network.Connection@29c634c7
+[25Jan2025 18:40:49.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game
+[25Jan2025 18:40:54.040] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5222ms or 104 ticks behind
+[25Jan2025 18:40:57.086] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x386cea6eacc4ad59
+[25Jan2025 18:41:12.560] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3542ms or 70 ticks behind
+[25Jan2025 18:41:31.019] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3501ms or 70 ticks behind
+[25Jan2025 18:41:42.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of EmBsNi) moved too quickly! 0.0,0.0,10.711205848305212
+[25Jan2025 18:41:47.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of EmBsNi) moved too quickly! 0.0,0.0,11.065837870347295
+[25Jan2025 18:41:47.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of EmBsNi) moved too quickly! 0.0,0.0,12.920486463171173
+[25Jan2025 18:41:51.660] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.660] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.660] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.660] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.660] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.661] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.661] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[25Jan2025 18:41:51.661] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[25Jan2025 18:41:51.661] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[25Jan2025 18:41:51.668] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[25Jan2025 18:41:51.775] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbasado33[/172.25.31.20:60443] logged in with entity id 1335 at (-1804.5966115966305, 64.875, 589.1895447201549)
+[25Jan2025 18:41:51.777] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5fa9f045 into net.minecraft.network.Connection@2965d895
+[25Jan2025 18:41:51.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 joined the game
+[25Jan2025 18:42:05.435] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19417ms or 388 ticks behind
+[25Jan2025 18:42:12.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> con q skin me ves?
+[25Jan2025 18:42:29.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> t tpeo?
+[25Jan2025 18:42:31.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> como steve creo
+[25Jan2025 18:42:31.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no
+[25Jan2025 18:42:34.062] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13644ms or 272 ticks behind
+[25Jan2025 18:42:41.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> ok
+[25Jan2025 18:42:45.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> aca estoy
+[25Jan2025 18:42:48.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> zzz
+[25Jan2025 18:43:20.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> con steve m,e ves?
+[25Jan2025 18:43:23.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> si
+[25Jan2025 18:43:28.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> ok
+[25Jan2025 18:43:34.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> tenes obsidiana?
+[25Jan2025 18:43:40.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> nop
+[25Jan2025 18:44:57.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[25Jan2025 18:46:14.459] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jan2025 18:46:14.485] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jan2025 18:46:48.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ahora en vez de 30 son 60 horas
+[25Jan2025 18:46:52.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> gog
+[25Jan2025 18:46:54.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> good
+[25Jan2025 18:47:00.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> pero tiene menos rendimiento
+[25Jan2025 18:47:05.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> fue
+[25Jan2025 18:47:06.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> es lo mismo
+[25Jan2025 18:47:14.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> la vrd va re bien
+[25Jan2025 18:47:24.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[25Jan2025 18:47:26.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> mal
+[25Jan2025 18:50:13.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8513ms or 170 ticks behind
+[25Jan2025 18:50:41.900] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2332ms or 46 ticks behind
+[25Jan2025 18:51:26.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> wtf
+[25Jan2025 18:51:29.368] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jan2025 18:51:29.435] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jan2025 18:51:29.504] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2436ms or 48 ticks behind
+[25Jan2025 18:51:30.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> na mi internet
+[25Jan2025 18:52:00.274] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[25Jan2025 18:52:19.267] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3999ms or 79 ticks behind
+[25Jan2025 18:52:29.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> 38
+[25Jan2025 18:52:40.849] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6631ms or 132 ticks behind
+[25Jan2025 18:53:02.773] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6955ms or 139 ticks behind
+[25Jan2025 18:53:29.324] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11556ms or 231 ticks behind
+[25Jan2025 18:53:58.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Jan2025 18:53:58.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Jan2025 18:53:58.712] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbasado33 lost connection: Disconnected
+[25Jan2025 18:53:58.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 left the game
+[25Jan2025 18:53:58.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Jan2025 18:54:00.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld

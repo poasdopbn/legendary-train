@@ -98,3 +98,15 @@
 [26Jan2025 01:53:49.734] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
 [26Jan2025 01:56:45.482] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbasado33 lost connection: Disconnected
 [26Jan2025 01:56:45.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 left the game
+[26Jan2025 02:23:07.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jan2025 02:23:07.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jan2025 02:23:08.020] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi lost connection: Server closed
+[26Jan2025 02:23:08.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi left the game
+[26Jan2025 02:23:08.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jan2025 02:23:09.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Jan2025 02:23:13.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Jan2025 02:23:13.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Jan2025 02:23:13.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Jan2025 02:23:13.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jan2025 02:23:13.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jan2025 02:23:13.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

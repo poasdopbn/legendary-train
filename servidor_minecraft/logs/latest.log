@@ -68,3 +68,4 @@
 [26Jan2025 00:22:50.046] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Wolf['Wolf'/7097, l='ServerLevel[world]', x=-1329.50, y=64.00, z=1200.26]
 [26Jan2025 00:23:28.424] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/7428, l='ServerLevel[world]', x=-1594.00, y=71.00, z=1264.00]
 [26Jan2025 00:34:20.983] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi moved wrongly!
+[26Jan2025 00:47:26.070] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind

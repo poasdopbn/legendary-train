@@ -64,3 +64,15 @@
 [26Jan2025 19:41:25.632] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
 [26Jan2025 19:41:25.632] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
 [26Jan2025 19:41:26.191] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:56:05.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi lost connection: Timed out
+[26Jan2025 19:56:05.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi left the game
+[26Jan2025 19:57:28.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jan2025 19:57:28.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jan2025 19:57:28.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jan2025 19:57:28.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Jan2025 19:57:29.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Jan2025 19:57:29.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Jan2025 19:57:29.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Jan2025 19:57:29.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jan2025 19:57:29.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jan2025 19:57:29.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

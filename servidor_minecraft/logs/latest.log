@@ -69,3 +69,10 @@
 [26Jan2025 00:23:28.424] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/7428, l='ServerLevel[world]', x=-1594.00, y=71.00, z=1264.00]
 [26Jan2025 00:34:20.983] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi moved wrongly!
 [26Jan2025 00:47:26.070] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[26Jan2025 01:25:44.278] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi lost connection: Disconnected
+[26Jan2025 01:25:44.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi left the game
+[26Jan2025 01:25:44.314] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[26Jan2025 01:26:35.003] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:64333] logged in with entity id 52169 at (-0.8448074069050439, 38.0, 3.6463118460135786)
+[26Jan2025 01:26:35.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game
+[26Jan2025 01:27:00.705] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[26Jan2025 01:27:18.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind

@@ -58,3 +58,9 @@
 [26Jan2025 19:23:02.602] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [26Jan2025 19:24:02.246] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:56150] logged in with entity id 151 at (-1762.156946087628, 64.0, 647.8442443982026)
 [26Jan2025 19:24:02.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game
+[26Jan2025 19:41:25.499] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:41:25.545] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:41:25.545] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:41:25.632] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:41:25.632] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign
+[26Jan2025 19:41:26.191] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player EmBsNi just tried to change non-editable sign

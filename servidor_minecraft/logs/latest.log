@@ -55,3 +55,12 @@
 [27Jan2025 18:28:43.703] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [27Jan2025 18:38:08.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbasado33[/172.25.31.20:59595] logged in with entity id 181 at (-1811.9779111790128, 76.0, 530.2320298224895)
 [27Jan2025 18:38:08.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 joined the game
+[27Jan2025 18:39:17.438] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1694, y=62, z=976} BlockPos{x=-1694, y=60, z=976}
+[27Jan2025 18:39:20.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1695, y=63, z=976} BlockPos{x=-1695, y=61, z=976}
+[27Jan2025 18:39:20.649] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1695, y=63, z=976} BlockPos{x=-1695, y=61, z=976}
+[27Jan2025 18:39:20.694] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1695, y=63, z=976} BlockPos{x=-1695, y=61, z=976}
+[27Jan2025 18:41:28.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2114, y=61, z=460} BlockPos{x=-2114, y=62, z=460}
+[27Jan2025 18:41:48.331] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2132, y=65, z=471} BlockPos{x=-2133, y=64, z=472}
+[27Jan2025 18:44:44.629] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2118, y=60, z=461} BlockPos{x=-2118, y=58, z=459}
+[27Jan2025 18:44:44.680] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2118, y=60, z=461} BlockPos{x=-2118, y=58, z=459}
+[27Jan2025 18:44:48.729] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2121, y=60, z=465} BlockPos{x=-2121, y=60, z=464}

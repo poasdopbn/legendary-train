@@ -990,3 +990,14 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 02:44:32.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [27Jan2025 02:49:32.830] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27Jan2025 02:49:32.836] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:54:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to elbasado33: q
+[27Jan2025 02:54:20.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to elbasado33: q
+[27Jan2025 02:54:32.832] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:54:32.837] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 02:55:20.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[27Jan2025 02:55:34.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to elbasado33: se me re bugea en el celu
+[27Jan2025 02:56:18.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[27Jan2025 02:56:18.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 3  o3 3<--[HERE]
+[27Jan2025 02:56:35.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to elbasado33: decime por discord
+[27Jan2025 02:59:32.822] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 02:59:32.827] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

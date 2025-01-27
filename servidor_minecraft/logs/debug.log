@@ -1444,3 +1444,64 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 21:12:43.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> a
 [27Jan2025 21:12:49.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
 [27Jan2025 21:13:06.558] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2155ms or 43 ticks behind
+[27Jan2025 21:13:26.493] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4940ms or 98 ticks behind
+[27Jan2025 21:13:44.059] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2605ms or 52 ticks behind
+[27Jan2025 21:14:02.265] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3212ms or 64 ticks behind
+[27Jan2025 21:14:08.494] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:14:08.498] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:14:21.858] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4605ms or 92 ticks behind
+[27Jan2025 21:14:40.050] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3197ms or 63 ticks behind
+[27Jan2025 21:15:08.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ya
+[27Jan2025 21:15:40.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> con los carteles se entiende?
+[27Jan2025 21:16:02.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> t fusit
+[27Jan2025 21:16:05.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> fuist
+[27Jan2025 21:16:12.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> si
+[27Jan2025 21:16:41.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> toy llendo
+[27Jan2025 21:17:04.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> aca para cocinar
+[27Jan2025 21:17:13.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y aca te da lo cocinado
+[27Jan2025 21:17:19.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y veni
+[27Jan2025 21:17:30.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> la palanca para el duper de alfombra
+[27Jan2025 21:17:34.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no lo apagues
+[27Jan2025 21:17:42.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> no ce kue dise
+[27Jan2025 21:17:42.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> se estan llenando las tolvas
+[27Jan2025 21:17:49.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ?
+[27Jan2025 21:17:52.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> nd
+[27Jan2025 21:18:02.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> noo
+[27Jan2025 21:18:04.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> lo bugeas idiotas
+[27Jan2025 21:18:16.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> dios mejor no lo uses
+[27Jan2025 21:18:20.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> si
+[27Jan2025 21:18:22.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> mejor no
+[27Jan2025 21:18:27.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> te haces el bobito
+[27Jan2025 21:18:29.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y te queria enseña
+[27Jan2025 21:19:14.628] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:19:14.632] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:20:07.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> lo mas choto son los reflectores
+[27Jan2025 21:20:22.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> podes usar barrotes
+[27Jan2025 21:20:24.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> quedaron explicitamente horrendos
+[27Jan2025 21:20:25.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> o vallas
+[27Jan2025 21:20:33.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> vallas oscuras
+[27Jan2025 21:20:38.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> los viste alguna ves a los reflectores?
+[27Jan2025 21:20:38.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> o muros
+[27Jan2025 21:20:46.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> si son grandotes
+[27Jan2025 21:20:56.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> por eos
+[27Jan2025 21:21:00.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> en vez de glowstone
+[27Jan2025 21:21:05.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> zzz
+[27Jan2025 21:21:17.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> podes usar lamparas de redstone
+[27Jan2025 21:21:25.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y podes hacer para prenderlo y apagarlos con una palanca
+[27Jan2025 21:21:36.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> con redstone facil
+[27Jan2025 21:21:42.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> solo usas un cable y ya
+[27Jan2025 21:21:46.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> uuuh re flomoso bldddddd
+[27Jan2025 21:21:48.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> pero fue
+[27Jan2025 21:21:55.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> solo 3 personas lo van a ver
+[27Jan2025 21:21:56.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> xd
+[27Jan2025 21:21:58.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> zzzz
+[27Jan2025 21:22:11.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> capaz se lo muestre a otras personas
+[27Jan2025 21:22:18.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> asd
+[27Jan2025 21:22:29.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> wtf
+[27Jan2025 21:22:35.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> dormi y se bugeo la maquina
+[27Jan2025 21:23:04.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> te imaginas, le decis a mina "yo hize un gigante de arroyito en minecraft", se te cae en la ping-
+[27Jan2025 21:23:13.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> q
+[27Jan2025 21:23:19.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> no se
+[27Jan2025 21:23:26.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> te ve rarito
+[27Jan2025 21:23:26.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> dea
+[27Jan2025 21:23:34.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> se ve mal?

@@ -65,3 +65,6 @@
 [27Jan2025 18:44:44.680] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2118, y=60, z=461} BlockPos{x=-2118, y=58, z=459}
 [27Jan2025 18:44:48.729] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2121, y=60, z=465} BlockPos{x=-2121, y=60, z=464}
 [27Jan2025 18:51:04.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> elbasado33
+[27Jan2025 19:07:48.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to elbasado33: a
+[27Jan2025 19:08:37.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:54662] logged in with entity id 7641 at (-1791.269352713374, 63.0, 621.0486357976292)
+[27Jan2025 19:08:37.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game

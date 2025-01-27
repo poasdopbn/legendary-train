@@ -1524,3 +1524,56 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 21:30:47.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> capaz se desbuguea intentando bugearlo
 [27Jan2025 21:31:16.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> no hay piston arriba
 [27Jan2025 21:31:38.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ese piston no se mueve
+[27Jan2025 21:34:14.635] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:34:14.640] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:34:23.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> se rompio cuando dormi?
+[27Jan2025 21:34:26.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no tienesentido
+[27Jan2025 21:34:40.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> hace esa parte de nuevo
+[27Jan2025 21:34:41.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> supongo
+[27Jan2025 21:34:50.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> o debe haber algo que esta fallando
+[27Jan2025 21:35:17.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> dormi
+[27Jan2025 21:35:21.681] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbasado33 lost connection: Disconnected
+[27Jan2025 21:35:21.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 left the game
+[27Jan2025 21:36:08.626] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.626] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.626] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[27Jan2025 21:36:08.627] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new vanilla impl connection.
+[27Jan2025 21:36:08.633] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[27Jan2025 21:36:08.697] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbasado33[/172.25.31.20:60727] logged in with entity id 82792 at (-1790.7447842732752, 64.0, 596.3333030472363)
+[27Jan2025 21:36:08.697] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5586cace into net.minecraft.network.Connection@78ddefb1
+[27Jan2025 21:36:08.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbasado33 joined the game
+[27Jan2025 21:36:52.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> el piston este es creo
+[27Jan2025 21:37:16.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> no rompiste el piston?
+[27Jan2025 21:38:40.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi moved wrongly!
+[27Jan2025 21:39:14.628] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:39:14.633] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:39:53.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> lo arregle
+[27Jan2025 21:39:56.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> pro
+[27Jan2025 21:39:58.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> XD
+[27Jan2025 21:40:07.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> era que
+[27Jan2025 21:40:12.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ya tenia señal
+[27Jan2025 21:40:20.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y como ya tenian señal antes de prenderse
+[27Jan2025 21:40:20.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> xd
+[27Jan2025 21:40:23.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> como que no funcioanba
+[27Jan2025 21:40:31.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> era ropmper los pistones para sacar la señal
+[27Jan2025 21:40:34.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> y asi se resetea
+[27Jan2025 21:40:37.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> creo que algo asi fue
+[27Jan2025 21:40:57.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> tiembla el rich
+[27Jan2025 21:41:01.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> jajaaj
+[27Jan2025 21:41:08.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> se detiene cuando se llena todo de carpets creo
+[27Jan2025 21:41:15.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> uf
+[27Jan2025 21:41:23.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> che, despues te pinta un pvp en mine?
+[27Jan2025 21:41:29.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no
+[27Jan2025 21:41:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> jo
+[27Jan2025 21:41:39.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> voy a arreglar la granja de cobblestone
+[27Jan2025 21:41:46.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> o hago otra?
+[27Jan2025 21:41:48.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> esta da problemas
+[27Jan2025 21:42:01.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> como quieras
+[27Jan2025 21:42:21.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> por alguna razon las hojas waterlogeadas no funcan
+[27Jan2025 21:44:14.615] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:44:14.619] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

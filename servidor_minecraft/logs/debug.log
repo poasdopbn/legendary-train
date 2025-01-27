@@ -1407,3 +1407,40 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jan2025 20:49:51.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> se rompio creo
 [27Jan2025 20:49:57.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> la vamo a sacr
 [27Jan2025 20:50:01.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> good
+[27Jan2025 20:53:45.721] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 20:53:45.725] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 20:58:45.715] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 20:58:45.719] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:01:48.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> creo q ya
+[27Jan2025 21:01:52.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> me ayudas con una ocsa?
+[27Jan2025 21:03:45.717] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:03:45.721] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:06:07.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ok ya
+[27Jan2025 21:06:41.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> q
+[27Jan2025 21:06:54.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> me habia ido
+[27Jan2025 21:07:20.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> lag
+[27Jan2025 21:08:31.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> tenes algo apra cocinar?
+[27Jan2025 21:08:38.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> nao nao
+[27Jan2025 21:08:45.720] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jan2025 21:08:45.725] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jan2025 21:10:31.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> veni al horno
+[27Jan2025 21:11:11.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> 15,199 bloques aprox costo hacer el gigante
+[27Jan2025 21:11:16.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> de bloques de concreto
+[27Jan2025 21:11:19.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> tremendo
+[27Jan2025 21:11:32.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> el cemento se puede cocinar?
+[27Jan2025 21:11:33.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no no?
+[27Jan2025 21:11:36.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> no
+[27Jan2025 21:11:40.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> cualquier cosa
+[27Jan2025 21:11:43.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> se enfria
+[27Jan2025 21:11:45.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> no secalienta
+[27Jan2025 21:11:46.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> xD
+[27Jan2025 21:11:58.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> veni q te enseño a usarlo
+[27Jan2025 21:11:58.881] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6328ms or 126 ticks behind
+[27Jan2025 21:12:21.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> tpoy nether
+[27Jan2025 21:12:24.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> a
+[27Jan2025 21:12:28.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> tp?
+[27Jan2025 21:12:36.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> te hago tp?
+[27Jan2025 21:12:42.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> estoy en el nether
+[27Jan2025 21:12:43.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> a
+[27Jan2025 21:12:49.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[27Jan2025 21:13:06.558] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2155ms or 43 ticks behind

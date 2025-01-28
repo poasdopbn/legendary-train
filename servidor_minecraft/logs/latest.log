@@ -349,3 +349,26 @@
 [28Jan2025 20:51:16.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
 [28Jan2025 20:51:33.318] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
 [28Jan2025 20:57:08.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann was shot by Skeleton
+[28Jan2025 21:01:54.791] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2126ms or 42 ticks behind
+[28Jan2025 21:02:13.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3628ms or 72 ticks behind
+[28Jan2025 21:02:33.630] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5265ms or 105 ticks behind
+[28Jan2025 21:02:53.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4859ms or 97 ticks behind
+[28Jan2025 21:03:12.814] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4349ms or 86 ticks behind
+[28Jan2025 21:03:35.138] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7373ms or 147 ticks behind
+[28Jan2025 21:03:54.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> -1628
+[28Jan2025 21:03:55.851] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5736ms or 114 ticks behind
+[28Jan2025 21:04:03.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> 618
+[28Jan2025 21:04:03.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> altura
+[28Jan2025 21:04:18.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7466ms or 149 ticks behind
+[28Jan2025 21:04:31.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Jan2025 21:04:31.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Jan2025 21:04:32.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ileeann lost connection: Server closed
+[28Jan2025 21:04:32.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann left the game
+[28Jan2025 21:04:32.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Jan2025 21:04:33.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Jan2025 21:04:36.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Jan2025 21:04:36.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Jan2025 21:04:36.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Jan2025 21:04:36.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Jan2025 21:04:36.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Jan2025 21:04:36.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,99 +1,67 @@
-[28Jan2025 00:59:45.397] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[28Jan2025 00:59:45.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[28Jan2025 00:59:45.632] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[28Jan2025 00:59:45.649] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[28Jan2025 00:59:45.650] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6%20(1).jar%23101!/
-[28Jan2025 00:59:45.660] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6 (1).jar
-[28Jan2025 00:59:45.661] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[28Jan2025 00:59:45.751] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/legendary-train/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[28Jan2025 00:59:45.761] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[28Jan2025 00:59:46.039] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[28Jan2025 00:59:46.041] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Jan2025 00:59:46.044] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Jan2025 00:59:46.047] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Jan2025 00:59:46.154] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[28Jan2025 00:59:46.728] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[28Jan2025 00:59:46.737] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[28Jan2025 00:59:47.286] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[28Jan2025 00:59:47.812] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[28Jan2025 01:03:17.358] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[28Jan2025 01:03:17.361] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[28Jan2025 01:03:18.586] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Jan2025 01:03:19.128] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.25
-[28Jan2025 01:03:20.428] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Jan2025 01:03:21.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
-[28Jan2025 01:03:21.699] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
-[28Jan2025 01:03:23.513] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28Jan2025 01:03:23.637] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[28Jan2025 01:03:24.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[28Jan2025 01:03:24.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Jan2025 01:03:24.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Jan2025 01:03:24.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Jan2025 01:03:24.368] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Jan2025 01:03:24.402] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Jan2025 01:03:24.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Jan2025 01:03:24.516] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Jan2025 01:03:24.517] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Jan2025 01:03:24.517] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Jan2025 01:03:24.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Jan2025 01:03:28.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Jan2025 01:03:28.795] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[28Jan2025 01:03:33.741] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.742] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.743] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.744] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.745] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.746] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.746] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.747] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.747] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:33.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:34.012] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Jan2025 01:03:34.512] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[28Jan2025 01:03:34.922] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6411 ms
-[28Jan2025 01:03:34.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.388s)! For help, type "help"
-[28Jan2025 01:03:34.940] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Jan2025 01:03:48.340] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:63697] logged in with entity id 174 at (-1815.699999988079, 64.0, 685.5691531059884)
-[28Jan2025 01:03:48.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game
-[28Jan2025 01:05:06.674] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ileeann[/172.25.226.16:52085] logged in with entity id 1211 at (-1793.2379537919426, 64.25220334025373, 617.7606360112768)
-[28Jan2025 01:05:06.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann joined the game
-[28Jan2025 01:05:25.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> 800?
-[28Jan2025 01:05:26.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> xd
-[28Jan2025 01:05:31.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> eso en minecraft es una banda
-[28Jan2025 01:05:33.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> a
-[28Jan2025 01:05:37.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> en la vida real tmb
-[28Jan2025 01:05:46.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> veni
-[28Jan2025 01:06:22.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> dios
-[28Jan2025 01:06:32.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> ahora veo raro
-[28Jan2025 01:06:36.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> donde te metiste
-[28Jan2025 01:06:37.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> como muy grande
-[28Jan2025 01:06:45.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> pone la interfaz en el 2
-[28Jan2025 01:07:14.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> donde estas
-[28Jan2025 01:07:28.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> no se donde queda eso que dijiste pero estoy cerca de ti creo
-[28Jan2025 01:07:40.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> mira
-[28Jan2025 01:07:59.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> mi hogar
-[28Jan2025 01:08:18.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> wow arquitectura medieval
-[28Jan2025 01:08:19.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> todavia no hay interior
-[28Jan2025 01:08:27.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> me gusta
-[28Jan2025 01:08:42.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> skn?
-[28Jan2025 01:08:45.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> q
-[28Jan2025 01:09:06.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> parece que estoy dentro de ese anime
-[28Jan2025 01:09:11.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> wat
-[28Jan2025 01:09:25.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> aca tengo q ordenar
-[28Jan2025 01:09:29.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> ponete a ordenar
-[28Jan2025 01:09:30.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> dea
-[28Jan2025 01:09:38.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> es bait
-[28Jan2025 01:09:40.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> aer
-[28Jan2025 01:09:47.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> respeta rangos
-[28Jan2025 01:09:50.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> X
-[28Jan2025 01:09:51.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> D
-[28Jan2025 01:09:54.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> aqui tu ere mi esclavo
-[28Jan2025 01:09:59.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> eri menor
-[28Jan2025 01:10:10.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> bueon ya me voy
-[28Jan2025 01:10:50.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> bye
-[28Jan2025 01:10:53.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi lost connection: Disconnected
-[28Jan2025 01:10:53.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi left the game
-[28Jan2025 01:20:53.969] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ileeann lost connection: Disconnected
-[28Jan2025 01:20:53.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann left the game
-[28Jan2025 01:30:39.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[28Jan2025 18:17:27.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[28Jan2025 18:17:27.587] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[28Jan2025 18:17:27.916] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Jan2025 18:17:27.951] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[28Jan2025 18:17:27.952] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6%20(1).jar%23101!/
+[28Jan2025 18:17:27.961] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/legendary-train/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6 (1).jar
+[28Jan2025 18:17:27.963] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[28Jan2025 18:17:28.088] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/legendary-train/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[28Jan2025 18:17:28.103] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[28Jan2025 18:17:28.464] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[28Jan2025 18:17:28.466] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Jan2025 18:17:28.468] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Jan2025 18:17:28.470] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-train/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Jan2025 18:17:28.587] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28Jan2025 18:17:29.421] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[28Jan2025 18:17:29.432] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[28Jan2025 18:17:30.051] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[28Jan2025 18:17:30.707] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Jan2025 18:17:38.946] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[28Jan2025 18:17:38.949] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[28Jan2025 18:17:39.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Jan2025 18:17:40.288] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.27
+[28Jan2025 18:17:41.020] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Jan2025 18:17:41.788] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[28Jan2025 18:17:41.789] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-train/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[28Jan2025 18:17:44.176] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[28Jan2025 18:17:44.327] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[28Jan2025 18:17:44.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[28Jan2025 18:17:44.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Jan2025 18:17:44.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Jan2025 18:17:44.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Jan2025 18:17:45.125] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Jan2025 18:17:45.163] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Jan2025 18:17:45.283] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Jan2025 18:17:45.284] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Jan2025 18:17:45.284] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Jan2025 18:17:45.285] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Jan2025 18:17:45.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Jan2025 18:17:48.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Jan2025 18:17:54.552] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.725] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.733] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.764] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.779] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.808] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.861] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.922] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.956] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.994] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.998] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:54.999] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:55.016] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:55.354] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Jan2025 18:17:55.853] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[28Jan2025 18:17:56.353] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[28Jan2025 18:17:56.685] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7833 ms
+[28Jan2025 18:17:56.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.386s)! For help, type "help"
+[28Jan2025 18:17:56.714] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Jan2025 18:19:20.168] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EmBsNi[/172.25.151.220:53808] logged in with entity id 161 at (-1972.8700544482622, 71.0, 644.3616339436884)
+[28Jan2025 18:19:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi joined the game
+[28Jan2025 18:33:05.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ileeann[/172.25.226.16:50760] logged in with entity id 6647 at (-1969.699999988079, 71.0, 710.2277268894629)
+[28Jan2025 18:33:05.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann joined the game
+[28Jan2025 18:36:02.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> donde puedo construir
+[28Jan2025 18:36:11.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> a
+[28Jan2025 18:36:21.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> me das un rato
+[28Jan2025 18:36:24.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> q termino algo
+[28Jan2025 18:36:31.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> c

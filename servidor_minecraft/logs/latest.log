@@ -306,3 +306,20 @@
 [28Jan2025 19:56:05.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann has made the advancement [Diamonds!]
 [28Jan2025 19:56:12.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elbasado33> ./ban
 [28Jan2025 20:02:13.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EmBsNi> afk
+[28Jan2025 20:16:02.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann has made the advancement [Suit Up]
+[28Jan2025 20:16:19.049] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1842, y=65, z=615} BlockPos{x=-1844, y=63, z=615}
+[28Jan2025 20:17:06.530] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3834, l='ServerLevel[world]', x=-1844.75, y=66.25, z=699.06] died, message: 'Villager tried to swim in lava'
+[28Jan2025 20:17:56.963] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/3838, l='ServerLevel[world]', x=-1839.30, y=66.56, z=698.72] died, message: 'Cartographer was slain by EmBsNi'
+[28Jan2025 20:17:58.790] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3833, l='ServerLevel[world]', x=-1840.83, y=66.67, z=699.70] died, message: 'Villager was slain by EmBsNi'
+[28Jan2025 20:18:01.043] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3840, l='ServerLevel[world]', x=-1845.85, y=66.00, z=699.44] died, message: 'Villager was slain by EmBsNi'
+[28Jan2025 20:18:06.695] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/3836, l='ServerLevel[world]', x=-1846.69, y=66.60, z=693.67] died, message: 'Cleric was slain by EmBsNi'
+[28Jan2025 20:18:08.852] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/3842, l='ServerLevel[world]', x=-1843.91, y=66.00, z=689.98] died, message: 'Cleric was slain by EmBsNi'
+[28Jan2025 20:18:09.997] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/3841, l='ServerLevel[world]', x=-1840.74, y=66.00, z=689.49] died, message: 'Toolsmith was slain by EmBsNi'
+[28Jan2025 20:18:12.392] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/3839, l='ServerLevel[world]', x=-1839.39, y=66.00, z=691.70] died, message: 'Cleric was slain by EmBsNi'
+[28Jan2025 20:18:13.549] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/3852, l='ServerLevel[world]', x=-1840.86, y=66.00, z=693.81] died, message: 'Cartographer was slain by EmBsNi'
+[28Jan2025 20:19:31.091] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ileeann lost connection: Disconnected
+[28Jan2025 20:19:31.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann left the game
+[28Jan2025 20:19:52.296] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/3843, l='ServerLevel[world]', x=-1855.10, y=66.33, z=698.70] died, message: 'Weaponsmith was slain by elbasado33 using [Escarbadiente]'
+[28Jan2025 20:19:54.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ileeann[/172.25.226.16:50833] logged in with entity id 48024 at (-1779.9412373239863, 58.0, 709.6999999880791)
+[28Jan2025 20:19:54.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann joined the game
+[28Jan2025 20:20:00.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/3835, l='ServerLevel[world]', x=-1853.07, y=66.00, z=677.64] died, message: 'Armorer was slain by EmBsNi'

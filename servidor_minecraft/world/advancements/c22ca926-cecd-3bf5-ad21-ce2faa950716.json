@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2025-01-28 01:20:01 +0000",
       "minecraft:river": "2025-01-27 23:56:54 +0000",
       "minecraft:forest": "2025-01-27 23:52:28 +0000",
       "minecraft:flower_forest": "2025-01-28 00:43:20 +0000",

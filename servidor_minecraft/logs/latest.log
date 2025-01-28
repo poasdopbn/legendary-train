@@ -94,3 +94,6 @@
 [28Jan2025 01:10:50.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> bye
 [28Jan2025 01:10:53.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EmBsNi lost connection: Disconnected
 [28Jan2025 01:10:53.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EmBsNi left the game
+[28Jan2025 01:20:53.969] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ileeann lost connection: Disconnected
+[28Jan2025 01:20:53.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann left the game
+[28Jan2025 01:30:39.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found

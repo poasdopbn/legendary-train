@@ -437,6 +437,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-01-28 00:17:02 +0000",
+      "cooked_mutton": "2025-01-28 01:11:08 +0000",
       "cooked_beef": "2025-01-28 00:50:47 +0000"
     },
     "done": false
@@ -720,6 +721,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-01-28 00:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-28 01:11:57 +0000"
     },
     "done": true
   },

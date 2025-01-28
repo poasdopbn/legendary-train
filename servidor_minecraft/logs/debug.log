@@ -1399,3 +1399,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Jan2025 20:19:54.701] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7111b859 into net.minecraft.network.Connection@65903734
 [28Jan2025 20:19:54.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann joined the game
 [28Jan2025 20:20:00.344] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/3835, l='ServerLevel[world]', x=-1853.07, y=66.00, z=677.64] died, message: 'Armorer was slain by EmBsNi'
+[28Jan2025 20:22:03.148] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Shepherd'/3824, l='ServerLevel[world]', x=-1857.82, y=65.00, z=681.56] died, message: 'Shepherd was slain by elbasado33 using [Escarbadiente]'
+[28Jan2025 20:22:05.996] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/3825, l='ServerLevel[world]', x=-1860.47, y=65.00, z=692.95] died, message: 'Librarian was slain by elbasado33 using [Escarbadiente]'
+[28Jan2025 20:22:56.730] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jan2025 20:22:56.734] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jan2025 20:27:56.731] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Jan2025 20:27:56.735] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Jan2025 20:28:06.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann has made the advancement [Monster Hunter]

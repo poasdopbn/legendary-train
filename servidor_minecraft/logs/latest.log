@@ -54,3 +54,14 @@
 [29Jan2025 02:44:33.138] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6699 ms
 [29Jan2025 02:44:33.139] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.128s)! For help, type "help"
 [29Jan2025 02:44:33.163] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Jan2025 03:11:08.446] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lolwr22[/172.25.247.1:63155] logged in with entity id 169 at (-1993.202867521613, 71.16610926093821, 652.2830925189394)
+[29Jan2025 03:11:08.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
+[29Jan2025 03:12:08.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 lost connection: Disconnected
+[29Jan2025 03:12:08.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 left the game
+[29Jan2025 03:12:31.787] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lolwr22[/172.25.247.1:63220] logged in with entity id 1160 at (-1993.202867521613, 69.0, 652.2830925189394)
+[29Jan2025 03:12:31.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
+[29Jan2025 03:12:36.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <lolwr22> anda
+[29Jan2025 03:12:41.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <lolwr22> ola
+[29Jan2025 03:12:41.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <lolwr22> ola
+[29Jan2025 03:13:31.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 lost connection: Timed out
+[29Jan2025 03:13:31.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 left the game

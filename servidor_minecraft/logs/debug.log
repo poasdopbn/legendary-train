@@ -1421,3 +1421,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [29Jan2025 03:22:58.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
 [29Jan2025 03:24:33.181] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [29Jan2025 03:24:33.186] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Jan2025 03:25:21.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 moved too quickly! 10.09546773304669,0.604424101326714,0.5267960931554398
+[29Jan2025 03:29:33.176] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Jan2025 03:29:33.181] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Jan2025 03:34:33.178] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Jan2025 03:34:33.183] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

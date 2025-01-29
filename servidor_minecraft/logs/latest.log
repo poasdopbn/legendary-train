@@ -73,3 +73,4 @@
 [29Jan2025 03:22:42.365] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d9e3422[id=<null>,name=lolwr22,properties={},legacy=false] (/172.25.247.1:63707) lost connection: Disconnected
 [29Jan2025 03:22:58.577] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lolwr22[/172.25.247.1:63772] logged in with entity id 3903 at (-1985.599176907474, 69.49520087700593, 713.5599603524037)
 [29Jan2025 03:22:58.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
+[29Jan2025 03:25:21.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 moved too quickly! 10.09546773304669,0.604424101326714,0.5267960931554398

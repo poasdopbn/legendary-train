@@ -77,3 +77,11 @@
 [29Jan2025 00:27:12.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann was slain by Zombie
 [29Jan2025 00:28:08.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2138ms or 42 ticks behind
 [29Jan2025 00:34:56.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann was shot by Skeleton
+[29Jan2025 00:48:03.119] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ileeann lost connection: Disconnected
+[29Jan2025 00:48:03.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann left the game
+[29Jan2025 00:48:03.169] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Jan2025 00:48:03.171] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ileeann[/172.25.226.16:56566] logged in with entity id 21150 at (-1861.1359801819854, 64.0, 635.1535544095696)
+[29Jan2025 00:48:03.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ileeann joined the game
+[29Jan2025 00:58:46.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to ileeann: noob
+[29Jan2025 00:59:09.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ileeann> q mira bobo
+[29Jan2025 00:59:43.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found

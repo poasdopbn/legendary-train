@@ -65,3 +65,11 @@
 [29Jan2025 03:12:41.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <lolwr22> ola
 [29Jan2025 03:13:31.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 lost connection: Timed out
 [29Jan2025 03:13:31.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 left the game
+[29Jan2025 03:15:56.132] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lolwr22[/172.25.247.1:63388] logged in with entity id 2031 at (-1993.202867521613, 69.0, 652.2830925189394)
+[29Jan2025 03:15:56.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
+[29Jan2025 03:21:11.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: lolwr22 lost connection: Timed out
+[29Jan2025 03:21:11.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 left the game
+[29Jan2025 03:21:54.823] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@f7a0ae9[id=<null>,name=lolwr22,properties={},legacy=false] (/172.25.247.1:63668) lost connection: Timed out
+[29Jan2025 03:22:42.365] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d9e3422[id=<null>,name=lolwr22,properties={},legacy=false] (/172.25.247.1:63707) lost connection: Disconnected
+[29Jan2025 03:22:58.577] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: lolwr22[/172.25.247.1:63772] logged in with entity id 3903 at (-1985.599176907474, 69.49520087700593, 713.5599603524037)
+[29Jan2025 03:22:58.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: lolwr22 joined the game
